@@ -1,0 +1,13 @@
+section{
+  border-box: 1px;
+  text-align: center;
+}
+
+.introHeart{
+  width: 400px;
+}
+
+li {
+  display: inline-block; 
+  padding-right: 50px;
+}
