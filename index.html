@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+     <meta name="description" type="An app containing a quiz on the anatomy of the heart">
+    <title>Anatomy of the Heart Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <main role="main" class="container">
+    <header role="Tracking" class="header">
+      <section>
+        <ul>
+          <li class="sizeMe">Question:
+            <span class="questionNumber">0</span>/5</li>
+          <li class="sizeMe">Score:
+            <span class="score">0</span>
+          </li>
+        </ul>
+      </section>
+    </header>
+    <section class="mainBox">
+      <section class="beginQuiz box">
+        <h1>Test your knowledge on the different layers of the heart.</h1>
+        <img src = "https://healthblog.uofmhealth.org/sites/consumer/files/2020-01/heart_beating_0.gif" alt="Intro Heart Pic" class="introHeart">
+        <div>
+        <button type="button" class="beginButton button">Begin Quiz</button>
+        </div>
+      </section>
+      <section class="questionBox box altBox">
+      </section>
+      <section class="response box altBox"></section>
+      <section class="final box altBox"></section>
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+ <script src="script.js"></script>
+  </body>
+</html>
